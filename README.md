@@ -42,9 +42,9 @@ Este projeto é uma API de encurtador de URLs construída com NestJS, utilizando
    Crie um arquivo `.env` na raiz do projeto e configure as variáveis de ambiente necessárias:
 
    ```env
-   DATABASE_URL=postgresql://user:password@localhost:5432/urlshortener
-   REDIS_URL=redis://localhost:6379
-   JWT_SECRET=your_jwt_secret
+   DATABASE_URL=
+   REDIS_URL=
+   JWT_SECRET=
    ```
 
 2. **Execute as migrações do Prisma:**
